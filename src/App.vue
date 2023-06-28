@@ -1,30 +1,35 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <navbarComp/>
   <router-view/>
-</template>
+   
 
+</template>
+<script>
+import navbarComp from './components/navbar-comp';
+export default {
+  components:{navbarComp}
+}
+</script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    background: scroll;
+} 
+::-webkit-scrollbar {
+    display: none;
 }
+ body {
+  overflow-x: hidden;
+} 
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
