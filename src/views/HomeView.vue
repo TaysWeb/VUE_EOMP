@@ -30,6 +30,7 @@
  <menuComp/>
  <moreComp/>
  <testComp/>
+ <contactComp/>
 </template>
 
 <script>
@@ -37,12 +38,13 @@
 import aboutHComp from '../components/about-comp'
 import menuComp from '../components/Menu-comp'
 import moreComp from '../components/more-comp'
-import testComp from '../components/testimonal-comp'
+import testComp from '../components/testimonial-comp'
+import contactComp from '../components/contact-comp'
 
 export default {
   name: 'HomeView',
   components: {
-    aboutHComp,menuComp,moreComp,testComp
+    aboutHComp,menuComp,moreComp,testComp,contactComp
   }
 }
 </script>
