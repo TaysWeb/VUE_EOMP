@@ -1,13 +1,14 @@
 <template>
   <navbarComp/>
   <router-view/>
-   
+   <footerComp/>
 
 </template>
 <script>
 import navbarComp from './components/navbar-comp';
+import footerComp from './components/footer-comp';
 export default {
-  components:{navbarComp}
+  components:{navbarComp,footerComp}
 }
 </script>
 <style>
@@ -31,5 +32,8 @@ export default {
  body {
   overflow-x: hidden;
 } 
+li {
+list-style:none;
+}
 
 </style>

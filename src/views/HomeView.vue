@@ -31,6 +31,7 @@
  <moreComp/>
  <testComp/>
  <contactComp/>
+ 
 </template>
 
 <script>
@@ -40,6 +41,7 @@ import menuComp from '../components/Menu-comp'
 import moreComp from '../components/more-comp'
 import testComp from '../components/testimonial-comp'
 import contactComp from '../components/contact-comp'
+
 
 export default {
   name: 'HomeView',
