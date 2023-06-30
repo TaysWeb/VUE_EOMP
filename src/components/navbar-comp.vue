@@ -36,14 +36,14 @@
                 <router-link to="/" class="nav-link">HOME</router-link>
               </li>
               <li class="nav-item p-3 py-md-1">
-                <router-link to="/" class="nav-link">PRODUCTS</router-link>
+                <router-link to="/products" class="nav-link">PRODUCTS</router-link>
               </li>
               <li>
                 <img src="https://i.postimg.cc/6Q14zm7z/EOMP-LOGO-Recovered.png" alt="EOMP-LOGO-Recovered" width="130" class="navbar-brand">
               </li>
            
               <li class="nav-item p-3 py-md-1">
-                <router-link to="/" class="nav-link">ADMIN</router-link>
+                <router-link to="/admin" class="nav-link">ADMIN</router-link>
               </li>
               <li class="nav-item p-3 py-md-1">
                 <router-link to="/" class="nav-link">CONTACT</router-link>
