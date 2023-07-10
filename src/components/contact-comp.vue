@@ -32,9 +32,9 @@
 
     </div>
          <div class="cont-img">
-      <div class="col-md-4 mx-2 " >  
+      <div class="col-auto mb-2 " >  
         <img src="https://i.postimg.cc/65vpkqV2/24-hours-customer-service-icon-24-7-support-icon-sign-button-customer-service-icon-vector.jpg"
-                 alt="24-hours" width="400" height="400">
+                 alt="24-hours" width="400" height="340">
        </div>
       
 
@@ -61,7 +61,7 @@ export default {
 </script>
 <style >
    .contact{
-     height:104vh;
+     height:80vh;
    }
    .contact-title h3 {
     letter-spacing: 3px;
@@ -71,6 +71,9 @@ export default {
    } 
    input {
     height:55px;
+   }
+   .cont-img {
+    margin-top: -21%;
    }
 
 </style>

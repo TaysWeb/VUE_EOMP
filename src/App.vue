@@ -5,8 +5,8 @@
 
 </template>
 <script>
-import navbarComp from './components/navbar-comp';
-import footerComp from './components/footer-comp';
+import navbarComp from './components/navbar-comp'
+import footerComp from './components/footer-comp'
 export default {
   components:{navbarComp,footerComp}
 }
@@ -22,7 +22,7 @@ export default {
 
 * {
     box-sizing: border-box;
-    margin: 0%;
+    margin: 0;
     padding: 0;
     background: scroll;
 } 
