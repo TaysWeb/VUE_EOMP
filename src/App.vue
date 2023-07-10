@@ -1,5 +1,6 @@
 <template>
   <navbarComp/>
+ 
   <router-view/>
    <footerComp/>
 
@@ -7,6 +8,8 @@
 <script>
 import navbarComp from './components/navbar-comp';
 import footerComp from './components/footer-comp';
+
+
 export default {
   components:{navbarComp,footerComp}
 }

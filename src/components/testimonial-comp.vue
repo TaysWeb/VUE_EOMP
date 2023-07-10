@@ -1,9 +1,6 @@
 <template>
     <div style="background: #a9a8a6;">
         <div class="container-fluid">
-           
-           
-         
 
         <div class="row gap-4 justify-content-evenly">
 

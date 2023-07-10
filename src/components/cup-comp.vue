@@ -13,7 +13,7 @@
 </template>d
 <script>
 export default {
-    props: ["property"]
+    props: ["products"]
 }
 </script>
 <style >
