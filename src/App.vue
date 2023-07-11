@@ -6,15 +6,8 @@
 
 </template>
 <script>
-<<<<<<< HEAD
 import navbarComp from './components/navbar-comp'
 import footerComp from './components/footer-comp'
-=======
-import navbarComp from './components/navbar-comp';
-import footerComp from './components/footer-comp';
-
-
->>>>>>> 733a47ba70a1f53d19005957c37c49b001e6c587
 export default {
   components:{navbarComp,footerComp}
 }

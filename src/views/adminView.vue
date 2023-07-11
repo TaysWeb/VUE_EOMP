@@ -32,7 +32,9 @@ export default {
     name:'admin',
     methods: {
         addNewMessage:function () {
-          addDoc(colllection(''))
+          addDoc(collection('products'));{
+            desc:this.$refs.newmessage.value
+          }
         } 
     },
 }
